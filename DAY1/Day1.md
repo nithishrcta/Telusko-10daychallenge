@@ -71,7 +71,9 @@ In programming, memoization is an optimization technique that makes applications
 ### Fibonacci using Memoization :
 
 ```
-ublic class main{
+import java.util.HashMap;
+import java.util.Map;
+public class main{
     private static Map<Integer,Integer> cache = new HashMap();
     public static void main(String args[])
     {
