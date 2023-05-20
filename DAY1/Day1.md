@@ -13,7 +13,7 @@ fun add(int n)
 }
 ```
 ## Factorial of a given number using Recursion
-   The product of all positive integers less than or equal to a given positive integer and denoted by that integer and an exclamation point
+   The product of all positive integers less than or equal to a given positive integer and denoted by that integer and an exclamation point.
 ```
 public class main{
     public static void main(String args[])
