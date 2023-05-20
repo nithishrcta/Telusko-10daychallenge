@@ -1,9 +1,16 @@
 # Assignment 1
 
-## Pascal's Triangle - using Memoization
-### Languages : (Java, Python, Javascript)
+### Pascal's Triangle - using Memoization
+#### Languages : (Java, Python, Javascript)
 
-### Java Code 
+#### Explaination :
+
+Pascal's Traingle :
+Pascal's triangle, in algebra, a triangular arrangement of numbers that gives the coefficients in the expansion of any binomial expression, such as (x + y)n
+
+
+
+#### Java Code 
 
 ```
 import java.util.HashMap;
