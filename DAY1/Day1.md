@@ -38,6 +38,8 @@ public class main{
 ```
 ## Fibonacci Series
 The Fibonacci sequence is a set of integers (the Fibonacci numbers) that starts with a zero, followed by a one, then by another one, and then by a series of steadily increasing numbers.
+
+#### using Recursion :
 ```
 public class main{
     public static void main(String args[])
@@ -63,5 +65,37 @@ public class main{
 }
 
 ```
+#### using Memoization :
 
+```
+ublic class main{
+    private static Map<Integer,Integer> cache = new HashMap();
+    public static void main(String args[])
+    {
+        Scanner sn = new Scanner(System.in):
+        int pos = 0;
+        pos = sc.nextInt();
+        int res = fib(num);
+        System.out.println(res);
+    }
+    public static int fib(int pos)
+    {
+      if(pos == 0))
+      {
+        return 0;
+      }
+      if(pos == 1 || pos == 2)
+      {
+        return 1;
+      }
+      if(cache.contains(pos))
+      {
+        return cache.get(pos);
+      }
+      int res =  fib(pos-1) + fact(pos-2);
+      cache.put(pos,result);
+      return res;
+    }
+}
+```
 
