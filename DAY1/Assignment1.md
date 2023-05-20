@@ -8,7 +8,7 @@
 Pascal's Traingle :
 Pascal's triangle, in algebra, a triangular arrangement of numbers that gives the coefficients in the expansion of any binomial expression, such as (x + y)n
 
-![plot](/DAY1/download(1).png)
+![image](download(1).png)
 
 
 #### Java Code 
